@@ -1,0 +1,55 @@
+# Commands / Steps Executed for Task 6 - Password Strength Evaluation (Windows)
+# -----------------------------------------------------------------------------
+
+1. Created a new folder on Desktop for Task 6:
+    rename > Task6-Password-Security
+
+2. Created a file named "Password_list.txt" containing 5 test passwords
+   with different complexity levels (very weak, weak, good, strong, and very strong).
+
+3. Opened free online password strength checkers in browser:
+   - https://www.passwordmeter.com
+
+4. Tested each password one by one and noted:
+   - Strength score or time to crack
+   - Feedback from the website
+
+5. Took screenshots of each password test result using Windows Snipping Tool:
+   Press: Windows + Shift + S → select area → save image
+   Saved screenshots inside a new folder:
+   > screenshots
+
+   screenshots\01_aritraadak.png
+   screenshots\02_AritraAdak.png
+   screenshots\03_Aritra12.png
+   screenshots\04_@Aritra123.png
+   screenshots\05_Aritra#!Tiger2025.png
+
+6. Created "password_results.md" file summarizing:
+   - Passwords tested
+   - Strength results
+   - Feedback and best practices
+
+7. Wrote "README.md" file describing:
+   - Objective of the task
+   - Tools used
+   - Steps followed
+   - Results and key learnings
+
+8. Initialized Git repository and added files:
+   C:\Users\Aritra Adak\Desktop\Task6-Password-Security> git init
+   C:\Users\Aritra Adak\Desktop\Task6-Password-Security> git add .
+   C:\Users\Aritra Adak\Desktop\Task6-Password-Security> git commit -m "Task6: Password strength evaluation — added README, results, screenshots"
+
+9. Created a new repository on GitHub named "Task6-Password-Security"
+   and connected it to local folder:
+   > git branch -M main
+   > git remote add origin https://github.com/AD069-ReZero/Task6-Password-Security.git
+   > git push -u origin main
+
+10. Verified that the following files were uploaded:
+    - README.md
+    - commands.txt
+    - password_list.txt
+    - password_results.md
+    - screenshots\
